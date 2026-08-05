@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "description": "One Works AI-native workspace launcher",
+  "homepage": "https://oneworks.cloud",
+  "license": "MIT",
+  "url": "https://github.com/oneworks-ai/app/releases/download/pkg/oneworks/v0.1.0/oneworks-windows-0.1.0.zip",
+  "hash": "2c6effedd14cb6d818ff1021df6a2f1c12ca0ec2097c84a9df2f9bb2b18214e6",
+  "bin": [
+    "oneworks.cmd",
+    "ow.cmd",
+    "owo.cmd"
+  ],
+  "depends": "nodejs-lts",
+  "autoupdate": {
+    "url": "https://github.com/oneworks-ai/app/releases/download/pkg/oneworks/v$version/oneworks-windows-$version.zip"
+  }
+}
